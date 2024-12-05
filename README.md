@@ -1,9 +1,4 @@
-# Prerequisites
-
-After clone, run pip install -r requirements.txt
-
-
-# Docker
+# PlanerTNP Backend
 
 ## Prerequisites
 
@@ -15,11 +10,13 @@ You will need to have the following installed on your system:
 
 ## Instructions
 
-Create a .env file in the root of the backend project and fill in the variables with your values:
-```
-BACKEND_PORT=1234
-DATABASE_URL=mongodb+srv://<username>:<password>@<cluster>.hul1s.mongodb.net/
-```
+### Development
+
+After clone, run pip install -r requirements.txt. Then run the `main.py` file.
+
+Make sure the working directory is set to the repo's directory.
+
+### Deployment
 
 Run `./setup_docker.sh` script.
 
